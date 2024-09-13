@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: "Teko", sans-serif;
+    letter-spacing: 2px;
+}
+
+body {
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+#home {
+    background-image: linear-gradient(to right, #97FFF6, #3196B6);
+    justify-content: center;
+}
+
+#img-illus {
+    text-align: right;
+    display: inline-flex;
+    margin-left: 80px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    animation: auto ease 0s 1 normal none running none;
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 5rem;
+    font-weight: 700;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+    height: 20%;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 80px;
+    justify-content: center;
+
+}
+
+#home-text {
+    display: inline-block;
+}
+
+#hello {
+    margin: 90px 0px 0px 100px;
+    display: inline-block;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#hello>span {
+    padding-bottom: 250px;
+    font-size: 5rem;
+    display: block;
+}
+
+#hello>p {
+    font-size: 9rem;
+    font-weight: 900;
+    padding-bottom: none;
+}
+
+#image {
+    padding-bottom: -200px;
+}
+
+#aboutme {
+    margin-left: 100px;
+    padding-top: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#box1 {
+    margin-left: 30px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #97FFF6, #3196B6);
+    height: 500px;
+    width: 410px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+#box2 {
+    height: 96%;
+    width: 100%;
+    padding-top: 20px;
+    background: #ffffff;
+}
+
+#imgborder {
+    margin-top: 16px;
+    margin-left: -30px;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    background: linear-gradient(to right, #97FFF6, #3196B6);
+    padding: 5px;
+}
+
+#mypic {
+    height: 100%;
+    width: 100%;
+}
+
+#intro {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+
+pre {
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    letter-spacing: normal;
+}
+
+pre>b {
+    letter-spacing: normal;
+}
+
+button {
+    font-size: 20px;
+    padding: 0.7rem;
+    margin-left: 4rem;
+    border-radius: 15px;
+    background: linear-gradient(to right, #97FFF6, #3196B6);
+    color: #000000;
+    font-size: 1rem;
+
+}
+
+#skills {
+    background-color: rgba(153, 255, 246, 0.5);
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    align-content: center;
+}
+
+#skills p {
+    text-align: center;
+    display: block;
+}
+
+.titles {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#aboutme .titles {
+    margin-left: 4rem;
+}
+
+.circle-skill {
+    width: 70%;
+    margin: auto;
+}
+
+.circles {
+    font-size: 20px;
+    font-weight: 500;
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 4.5rem;
+
+}
+
+.circles>p {
+    position: absolute;
+    top: 45%;
+    margin: 1rem;
+    width: 100%;
+
+}
+
+hr {
+    background-color: #263240;
+    height: 10px;
+}
+
+#projects {
+    background-color: rgba(153, 255, 246, 0.5);
+    align-content: center;
+    padding-top: 3rem;
+}
+
+#box-margin {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+    background-color: #263240;
+    display: inline-block;
+}
+
+.inside-box {
+    height: 10rem;
+    width: 15rem;
+    margin: auto;
+    border: 4px solid #3196B6;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+.inside-text {
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.inside-text>span {
+    font-weight: 900;
+    letter-spacing: normal;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    display: inline-block;
+}
+
+.inside-text>p {
+    display: inline-block;
+}
+
+.card-btn {
+    background: none;
+    color: white;
+    border: 2px solid #3196B6;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 0;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+#certificates {
+    background-color: rgba(153, 255, 246, 0.5);
+    align-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#certificates>ul {
+    width: 70%;
+    margin: auto;
+    list-style-type: square;
+}
+
+
+#certificates>ul>li>p {
+    letter-spacing: normal;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+.footer {
+    background-color: #263240;
+    color: #ffffff;
+    padding: 4rem;
+}
+
+
+.footer>div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer>div>a {
+    margin: 2.7rem;
+}
+
+.footer>div>a>svg {
+    width: 3rem;
+}
